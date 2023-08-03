@@ -1,0 +1,547 @@
+body{
+    font-family: 'calibri';
+    margin:0px auto;
+}
+figure{
+    margin: 0px;
+    padding:0px;
+}
+ul{
+    margin: 0px;
+    padding:0px;
+}
+h1,h2,h3,h4,h5{
+    margin:0px;
+}
+p{
+    margin: 0px;
+    padding:0px;
+}
+.company-logo{
+    display: inline-block;
+    width:25%;
+}
+.company-logo img{
+    width:100%;
+    max-width:230px;
+    padding:0px 0px 0px 0px;
+}
+.company-logo figure{
+    margin:0px;
+    padding:0px 0px 0px 0px;
+}
+.menu-section{
+    display: inline-block;
+    margin-left: -4px;
+    vertical-align: top;
+    padding:0px 0px 0px 0px;
+    width:75%;
+}
+.header-section{
+    padding:30px 0px 20px;
+}
+.common-width{
+    width: 80%;
+    margin: 0px auto;
+}
+.contact-detail{
+    display: inline-block;
+}
+.menu-top-lists{
+    display: inline-block;
+    padding:0px 0px 0px 15px;
+}
+.menu-top-lists li{
+    display: inline-block;
+    padding:0px 0px 0px 50px;
+}
+.menu-top-lists li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #0e0e0e;
+    font-size: 19px;
+    line-height:21px;
+}
+.menu-top-lists li a:hover{
+    color:#02B5CC;
+}
+.contact-detail a:hover{
+    color:#101B25;
+}
+.menu-bottom-lists li a:hover{
+    color:#02B5CC;
+}
+.contact-detail a{
+    display: inline-block;
+    text-decoration: none;
+    color:#5D5BA5;
+    font-size: 21px;
+    line-height:22px;
+}
+.menu-search-box{
+    display: inline-block;
+    padding:0px 0px 0px 30px;  
+}
+.type_search{
+    background-image: url("../images/search.png");
+    background-repeat: no-repeat;
+    background-position-x:95%;
+    background-position-y: 50%;
+    background-size: 10%;
+    padding:5px 0px;
+    background-color: #F8F8F8;
+    border: 2px solid #1CBFCD; 
+}
+.menu-bottom-lists{
+    padding:15px 0px 5px 0px;
+}
+.menu-bottom-lists li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #101B25;
+    font-size: 21px;
+    line-height:23px;
+    font-weight:bold;
+}
+.menu-bottom-lists li{
+    display: inline-block;
+    padding:0px 90px 0px 0px;
+}
+.menu-bottom-lists li:last-child{
+    padding: 0px 0px 0px 13px;
+}
+.hr1{
+    margin: 0px;
+    border-style: none;
+    background-color: #02B5CC;
+    height:4px;
+}
+.form-section{
+    padding:50px 0px 10px;
+}
+.form-heading{
+    display: inline-block;
+    width:80%;
+}
+.form-heading h1{
+    font-size:30px;
+    line-height: 32px;
+    color:#005FA6;
+}
+.form-pdf{
+    display: inline-block;
+    text-align: right;
+    width:20%;
+    margin-left: -4px;
+}
+.form-pdf-image{
+    display: inline-block;
+}
+.form-pdf-image figure{
+    display: inline-block;
+}
+.form-pdf-image img{
+    width:100%;
+    max-width: 18px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.form-pdf-image a{
+    font-size:19px;
+    line-height: 22px;
+    color:#005FA6;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+}
+.patient-info-section{
+    background-color: #EFEFEF;
+    padding:12px 0px;
+    margin:30px 0px 0px 0px;
+}
+.patient-information{
+    width:15%;
+    display: inline-block;
+    text-align: center;
+}
+.patient-information p{
+    font-size: 17px;
+    line-height: 19px;
+    color:#005FA6;
+    font-weight: bold;
+}
+.arrow-img{
+    width:3%;
+    display: inline-block;
+    margin-left: -4px;
+}
+.medicaid-information{
+    width:82%;
+    display: inline-block;
+    margin-left: -4px;
+}
+.medicaid-information p{
+    font-size: 17px;
+    line-height: 19px;
+    font-weight: bold;
+    color:#505050;
+}
+.financial-para{
+    color:#787776;
+    font-size: 17px;
+    line-height: 19px;
+    font-weight: bold;
+    padding:20px 0px 0px 0px;
+}
+.form-lists{
+    padding:0px 0px 10px 0px;
+}
+.txt_common_box1{
+    width:31%;
+    padding:9px 0px 9px 10px;
+    border:2px solid #02B5CC;
+    margin:25px 13px 0px 0px;
+}
+#txt_box5{
+    margin: 25px 0px 0px 0px;
+}
+.txt_common_box1::placeholder{
+    color:#005FA6;
+    font-weight: bold;
+    font-size: 14px;
+}
+.txt_common_box2::placeholder{
+    color:#005FA6;
+    font-weight: bold;
+    font-size: 14px;
+}
+.txt_common_box3::placeholder{
+    color:#005FA6;
+    font-weight: bold;
+    font-size: 14px;
+}
+.txt_common_box4::placeholder{
+    color:#005FA6;
+    font-weight: bold;
+    font-size: 14px;
+}
+.txt_common_box2{
+    width:15%;
+    padding:9px 0px 9px 10px;
+    margin:25px 11px 0px 0px;
+    border:2px solid #02B5CC;
+}
+.txt_common_box3{
+    width:7%;
+    padding:9px 0px 9px 5px;
+    margin:25px 13px 0px 0px;
+    border:2px solid #02B5CC;
+}
+.form-lists label{
+    color: #005FA6;
+    font-size: 17px;
+    line-height: 19px;
+    font-weight: bold;
+}
+.form-lists select{
+    color: #005FA6;
+    font-weight: bold;
+    font-size: 14px;
+}
+#txt_box10{
+    margin: 25px 0px 0px 0px;
+}
+#txt_box11{
+    margin: 25px 11px 0px 9px;
+}
+#txt_box14{
+    width:32.5%;
+}
+#txt_box15{
+    margin: 25px 0px 0px 0px;
+}
+.txt_common_box4{
+    width:31%;
+    padding:9px 0px 9px 10px;
+    border:2px solid #02B5CC;
+    margin:10px 13px 0px 0px;
+}
+.form-lists h2{
+    padding:30px 0px 0px;
+    color: #02B5CC;
+    font-size: 20px;
+    line-height: 23px;
+}
+#txt_box17{
+    width:32.5%;
+}
+#txt_box18{
+    width:32%;
+}
+.hr2{
+    margin: 0px;
+    border-style: none;
+    background-color: #EFEFEF;
+    height:3px;
+}
+.family-income-section{
+    padding:15px 0px 15px 0px;
+}
+.family-income-section-heading h3{
+    font-size: 23px;
+    line-height: 24px;
+    color: #363644;
+    padding:0px 0px 10px;
+}
+.family-income-section-para p{
+    color:#787776;
+    font-size: 17px;
+    line-height: 19px;
+    font-weight: bold;
+    padding:0px 0px 15px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.income-source{
+    width: 34%;
+    padding: 25px 0px 5px 7px;
+}
+.total-three-month{
+    width: 23%;
+}
+.total-twelve-month{
+    width: 23%;
+}
+tr td:nth-child(1){
+    padding: 8px 0px 20px 8px;
+}
+tr td:nth-child(2){
+    text-align: center;
+}
+tr td:nth-child(3){
+    text-align: center;
+}
+tr td:nth-child(4){
+    text-align: center;
+}
+.txt_table_boxone{
+    border:2px solid #0052A0;
+    border-style: solid;    
+    padding: 8px 75px 8px 12px;
+}
+.txt_table_boxtwo{
+    border:2px solid #0052A0;
+    border-style: solid;    
+    padding: 8px 75px 8px 12px;
+}
+.txt_table_others{
+    border:2px solid #0052A0;
+    border-style: solid;
+    padding: 12px 26px 4px 26px;
+}
+th{
+    background-color: #0052A0;
+    text-align: left;
+    color: #fff;
+    padding: 8px 0px 8px 7px;
+    border: 1.5px solid #0052A0;
+    font-size: 19px;
+    line-height: 21px;
+    font-weight: bold;
+}
+td{
+    border: 1.5px solid #0052A0;
+    font-weight: bold;
+    color: #4c4d50;
+    font-size: 17px;
+    line-height: 24px;
+}
+.monthly-duration{
+    border:2px solid #0052A0;
+    padding: 8px 135px 8px 7px;
+    color: #0052A0;
+    font-weight: bold;
+}
+.family-info-income-section{
+    padding: 20px 0px 50px 0px;
+}
+.txt_family{
+    width: 23%;
+    padding:8px 0px 8px 12px;
+    border:2px solid #18BECD;
+    color: #0052A0;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.txt_family::placeholder{
+    color:#005FA6;
+    font-weight: bold;
+    font-size: 14px;
+}
+.family-info-income-section select{
+    color: #005FA6;
+    font-weight: bold;
+    font-size: 14px;
+}
+.family-info-income-section label{
+    color: #005FA6;
+    font-weight: bold;
+    font-size: 18px;
+}
+.btn_remove_member{
+    background-color: #0052A0;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    padding: 10px 34px 10px 34px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.form-submit{
+    text-align: center;
+}
+.btn_submit_form{
+    background-color: #0052A0;
+    color: #fff;
+    border: none;
+    font-size: 17px;
+    padding: 12px 30px 12px 30px;
+    border-radius: 4px;
+    margin:40px 0px 0px 0px;
+}
+.form-submit input:hover{
+    background-color: #363644;
+    cursor: pointer;
+}
+.btn_remove_member:hover{
+    background-color: #363644;
+    cursor: pointer;
+}
+.follow{
+    text-align: center;
+}
+.follow-us{
+    display: inline-block;
+}
+.follow-us p{
+    color:#02B5CC;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+}
+.icons a{
+    display: inline-block;
+}
+.icons{
+    vertical-align: middle;
+    display: inline-block;
+}
+.icons img{
+    width: 100%;
+    max-width: 30px;
+    padding: 0px 0px 0px 8px;
+}
+.list-types{
+    width:25%;
+    display: inline-block;
+    vertical-align: top;
+    padding:0px 0px 0px 0px;
+    margin-left: -4px;
+}
+.list-types:nth-child(1){
+    margin-left: 0px;
+}
+.list-types p{
+    margin:0%;
+    color:#005FA6;
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: bold;
+}
+.list-types ul{
+    margin:0%;
+    padding:0%;
+    list-style: none;
+}
+.list-types li a{
+    text-decoration: none;
+    color:#364959;
+    font-size: 18px;
+    line-height:35px ;
+    font-weight: bold;
+}
+.list-types li a:hover{
+    color:#18BECD;
+}
+.staff-tools{
+    display: inline-block;
+}
+.footer-space{
+    padding:50px 0px 20px 0px;
+}
+.copyright{
+    display: inline-block;
+    width: 70%;
+}
+.copyright p{
+    margin:0px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #57585a;
+}
+.footer-bottom{
+    padding: 20px 0px 20px 0px;
+}
+.makered{
+    border: 2px solid red !important;
+  }
+.label1{
+    display: inline-block;
+    padding:10px 40px 10px 0px;
+}
+.label1 label{
+    font-size:19px;
+    line-height: 20px;
+}
+.label2 label{
+    font-size:19px;
+    line-height: 20px;
+}
+.label3 label{
+    font-size:19px;
+    line-height: 20px;
+}
+.label4 label{
+    font-size:19px;
+    line-height: 20px;
+}
+.label5 label{
+    font-size:19px;
+    line-height: 20px;
+}
+.label6 label{
+    font-size:19px;
+    line-height: 20px;
+}
+.label2{
+    display: inline-block;
+    padding:10px 40px 10px 0px;
+}
+.label3{
+    display: inline-block;
+    padding:10px 40px 10px 0px;
+}
+.label4{
+    display: inline-block;
+    padding:10px 40px 10px 0px;
+}
+.label5{
+    display: inline-block;
+    padding:10px 40px 10px 0px;
+}
+.label6{
+    display: inline-block;
+    padding:10px 40px 10px 0px;
+}
